@@ -1,0 +1,6 @@
+2.	import spacy
+3.	nlp = spacy.load("en_core_web_sm")
+4.	text = "Autonomous cars shift insurance liability toward manufacturers."
+5.	doc = nlp(text)
+6.	for token in doc:
+7.	    print(token.text)
